@@ -16,7 +16,7 @@ public class Bus {
     private String fechaCreacion;
     private String marca;
     private String modelo;
-
+    
     public static int instances = 0;
     
     public Bus(){
@@ -61,5 +61,12 @@ public class Bus {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+    @Override
+    public String toString(){
+        return "Fecha de creación: "+ getFechaCreacion()
+                + "\nKilometraje: "+ getKilometraje()
+                + "\nMarca: "+ getMarca()
+                + "\nModelo: "+ getModelo();
     }
 }

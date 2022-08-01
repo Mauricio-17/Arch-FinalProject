@@ -31,6 +31,5 @@ public class BusCRUD implements BusDAO{
     @Override
     public void Delete(int id) {
         
-    }
-    
+    }    
 }

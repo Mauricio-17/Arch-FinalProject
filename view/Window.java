@@ -27,33 +27,51 @@ public class Window extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Login = new javax.swing.JFrame();
+        jFrameLogin = new javax.swing.JFrame();
         jPanel12 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
-        jPanel2 = new javax.swing.JPanel();
+        panelGestionU = new javax.swing.JPanel();
         jTabbedPane2 = new javax.swing.JTabbedPane();
-        jPanel4 = new javax.swing.JPanel();
+        panelBus = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         txtBusModelo = new javax.swing.JTextField();
         txtBusMarca = new javax.swing.JTextField();
         txtBusKilometraje = new javax.swing.JTextField();
         txtBusFechaCr = new javax.swing.JTextField();
-        btnEliminarBus = new javax.swing.JButton();
         btnGuardarBus = new javax.swing.JButton();
-        jPanel5 = new javax.swing.JPanel();
+        btnEliminarBus = new javax.swing.JButton();
+        btnModificarBus = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        txtAreaBus = new javax.swing.JTextArea();
+        txtBusBuscar = new javax.swing.JTextField();
+        btnBuscarBus = new javax.swing.JButton();
+        btnBusReset = new javax.swing.JButton();
+        panelChofer = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         txtChoferDireccion = new javax.swing.JTextField();
         txtChoferDni = new javax.swing.JTextField();
         cbxChoferGradoIns = new javax.swing.JComboBox<>();
         btnEliminarChofer = new javax.swing.JButton();
+        btnModificarBus2 = new javax.swing.JButton();
         btnGuardarChofer = new javax.swing.JButton();
-        jPanel8 = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        txtAreaChofer = new javax.swing.JTextArea();
+        txtChoferBuscar = new javax.swing.JTextField();
+        btnBuscarChofer = new javax.swing.JButton();
+        btnChoferReset = new javax.swing.JButton();
+        panelHojaRuta = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
         txtHojaRutaSalida = new javax.swing.JTextField();
         txtHojaRutaIngreso = new javax.swing.JTextField();
         btnEliminarHojaRuta = new javax.swing.JButton();
         btnGuardarHojaRuta = new javax.swing.JButton();
-        jPanel10 = new javax.swing.JPanel();
+        btnModificarHojaRuta = new javax.swing.JButton();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        txtAreaHojaRuta = new javax.swing.JTextArea();
+        txtHojaRutaBuscar = new javax.swing.JTextField();
+        btnBuscarBus2 = new javax.swing.JButton();
+        btnHojaRutaReset = new javax.swing.JButton();
+        panelRutaTransporte = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         txtRutaTransporteNumeroR = new javax.swing.JTextField();
         txtRutaTransporteInicioR = new javax.swing.JTextField();
@@ -61,21 +79,38 @@ public class Window extends javax.swing.JFrame {
         btnEliminarRutaTransporte = new javax.swing.JButton();
         btnGuardarRutaTransporte = new javax.swing.JButton();
         cbxRutaTransporteTipoR = new javax.swing.JComboBox<>();
-        jPanel3 = new javax.swing.JPanel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        txtAreaRutaTransporte = new javax.swing.JTextArea();
+        txtRutaTransporteBuscar = new javax.swing.JTextField();
+        btnBuscarBus3 = new javax.swing.JButton();
+        btnRutaTransporteReset = new javax.swing.JButton();
+        panelReportes = new javax.swing.JPanel();
+        jTabbedPane3 = new javax.swing.JTabbedPane();
+        jPanel2 = new javax.swing.JPanel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        tableReporteChofer = new javax.swing.JTable();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jTextField1 = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
-        jPanel13 = new javax.swing.JPanel();
-        txtRutaTransporteNumeroR1 = new javax.swing.JTextField();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        tableReporteBus = new javax.swing.JTable();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        panelOperaciones = new javax.swing.JPanel();
         txtRutaTransporteInicioR1 = new javax.swing.JTextField();
-        txtRutaTransporteDestinoR1 = new javax.swing.JTextField();
-        btnEliminarRutaTransporte1 = new javax.swing.JButton();
-        btnGuardarRutaTransporte1 = new javax.swing.JButton();
-        cbxRutaTransporteTipoR1 = new javax.swing.JComboBox<>();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtAreaOperacionesData = new javax.swing.JTextArea();
+        txtRutaTransporteInicioR2 = new javax.swing.JTextField();
+        txtRutaTransporteInicioR3 = new javax.swing.JTextField();
+        btnGuardarOperaciones = new javax.swing.JButton();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        tableOperaciones = new javax.swing.JTable();
+        btnEliminarOperaciones = new javax.swing.JButton();
 
-        Login.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jFrameLogin.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel12.setBackground(new java.awt.Color(204, 255, 255));
         jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        Login.getContentPane().add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 409, 310));
+        jFrameLogin.getContentPane().add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 409, 310));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -83,11 +118,14 @@ public class Window extends javax.swing.JFrame {
         jTabbedPane1.setBackground(new java.awt.Color(255, 204, 204));
         jTabbedPane1.setForeground(new java.awt.Color(0, 0, 0));
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelGestionU.setBackground(new java.awt.Color(204, 255, 255));
+        panelGestionU.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel4.setBackground(new java.awt.Color(153, 255, 204));
-        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jTabbedPane2.setBackground(new java.awt.Color(204, 255, 255));
+        jTabbedPane2.setForeground(new java.awt.Color(0, 0, 0));
+
+        panelBus.setBackground(new java.awt.Color(204, 255, 204));
+        panelBus.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -101,7 +139,7 @@ public class Window extends javax.swing.JFrame {
                 txtBusModeloActionPerformed(evt);
             }
         });
-        jPanel6.add(txtBusModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, 150, 50));
+        jPanel6.add(txtBusModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 170, 40));
 
         txtBusMarca.setBackground(new java.awt.Color(255, 255, 255));
         txtBusMarca.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -112,7 +150,7 @@ public class Window extends javax.swing.JFrame {
                 txtBusMarcaActionPerformed(evt);
             }
         });
-        jPanel6.add(txtBusMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 150, 50));
+        jPanel6.add(txtBusMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 150, -1));
 
         txtBusKilometraje.setBackground(new java.awt.Color(255, 255, 255));
         txtBusKilometraje.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -123,7 +161,7 @@ public class Window extends javax.swing.JFrame {
                 txtBusKilometrajeActionPerformed(evt);
             }
         });
-        jPanel6.add(txtBusKilometraje, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 150, 40));
+        jPanel6.add(txtBusKilometraje, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 150, 40));
 
         txtBusFechaCr.setBackground(new java.awt.Color(255, 255, 255));
         txtBusFechaCr.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -134,26 +172,82 @@ public class Window extends javax.swing.JFrame {
                 txtBusFechaCrActionPerformed(evt);
             }
         });
-        jPanel6.add(txtBusFechaCr, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, 170, 40));
-
-        btnEliminarBus.setBackground(new java.awt.Color(255, 51, 51));
-        btnEliminarBus.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        btnEliminarBus.setForeground(new java.awt.Color(255, 255, 255));
-        btnEliminarBus.setText("ELIMINAR");
-        jPanel6.add(btnEliminarBus, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 110, 30));
+        jPanel6.add(txtBusFechaCr, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 170, 40));
 
         btnGuardarBus.setBackground(new java.awt.Color(51, 0, 153));
         btnGuardarBus.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnGuardarBus.setForeground(new java.awt.Color(255, 255, 255));
         btnGuardarBus.setText("GUARDAR");
-        jPanel6.add(btnGuardarBus, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 110, 30));
+        btnGuardarBus.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnGuardarBusActionPerformed(evt);
+            }
+        });
+        jPanel6.add(btnGuardarBus, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 110, 30));
 
-        jPanel4.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 390, 180));
+        btnEliminarBus.setBackground(new java.awt.Color(255, 51, 51));
+        btnEliminarBus.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnEliminarBus.setForeground(new java.awt.Color(255, 255, 255));
+        btnEliminarBus.setText("ELIMINAR");
+        btnEliminarBus.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEliminarBusActionPerformed(evt);
+            }
+        });
+        jPanel6.add(btnEliminarBus, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, 110, 30));
 
-        jTabbedPane2.addTab("BUS", jPanel4);
+        btnModificarBus.setBackground(new java.awt.Color(255, 153, 51));
+        btnModificarBus.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnModificarBus.setForeground(new java.awt.Color(255, 255, 255));
+        btnModificarBus.setText("MODIFICAR");
+        btnModificarBus.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnModificarBusActionPerformed(evt);
+            }
+        });
+        jPanel6.add(btnModificarBus, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 110, 120, 30));
 
-        jPanel5.setBackground(new java.awt.Color(153, 255, 204));
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelBus.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 380, 150));
+
+        jScrollPane3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "INFORMACIÓN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12), new java.awt.Color(0, 51, 102))); // NOI18N
+
+        txtAreaBus.setBackground(new java.awt.Color(255, 255, 255));
+        txtAreaBus.setColumns(20);
+        txtAreaBus.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtAreaBus.setForeground(new java.awt.Color(0, 0, 0));
+        txtAreaBus.setRows(5);
+        txtAreaBus.setBorder(null);
+        jScrollPane3.setViewportView(txtAreaBus);
+
+        panelBus.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 400, 140));
+
+        txtBusBuscar.setBackground(new java.awt.Color(255, 255, 255));
+        txtBusBuscar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtBusBuscar.setForeground(new java.awt.Color(0, 0, 0));
+        txtBusBuscar.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtBusBuscar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtBusBuscarActionPerformed(evt);
+            }
+        });
+        panelBus.add(txtBusBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 110, -1));
+
+        btnBuscarBus.setBackground(new java.awt.Color(255, 153, 102));
+        btnBuscarBus.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnBuscarBus.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarBus.setText("BUSCAR");
+        panelBus.add(btnBuscarBus, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 90, 110, 30));
+
+        btnBusReset.setBackground(new java.awt.Color(255, 153, 102));
+        btnBusReset.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnBusReset.setForeground(new java.awt.Color(255, 255, 255));
+        btnBusReset.setText("RESET");
+        panelBus.add(btnBusReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, 110, 20));
+
+        jTabbedPane2.addTab("BUS", panelBus);
+
+        panelChofer.setBackground(new java.awt.Color(204, 255, 204));
+        panelChofer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel7.setBackground(new java.awt.Color(255, 255, 255));
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -167,7 +261,7 @@ public class Window extends javax.swing.JFrame {
                 txtChoferDireccionActionPerformed(evt);
             }
         });
-        jPanel7.add(txtChoferDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 170, 40));
+        jPanel7.add(txtChoferDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, 40));
 
         txtChoferDni.setBackground(new java.awt.Color(255, 255, 255));
         txtChoferDni.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -178,33 +272,77 @@ public class Window extends javax.swing.JFrame {
                 txtChoferDniActionPerformed(evt);
             }
         });
-        jPanel7.add(txtChoferDni, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 170, 40));
+        jPanel7.add(txtChoferDni, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 170, 40));
 
         cbxChoferGradoIns.setBackground(new java.awt.Color(255, 255, 255));
         cbxChoferGradoIns.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbxChoferGradoIns.setForeground(new java.awt.Color(0, 0, 0));
         cbxChoferGradoIns.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SECUNDARIA", "TÉCNICO", "UNIVERSITARIO" }));
         cbxChoferGradoIns.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "GRADO INSTRUCCIÓN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
-        jPanel7.add(cbxChoferGradoIns, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 170, -1));
+        jPanel7.add(cbxChoferGradoIns, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 190, -1));
 
         btnEliminarChofer.setBackground(new java.awt.Color(255, 51, 51));
         btnEliminarChofer.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnEliminarChofer.setForeground(new java.awt.Color(255, 255, 255));
         btnEliminarChofer.setText("ELIMINAR");
-        jPanel7.add(btnEliminarChofer, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 100, 110, 30));
+        jPanel7.add(btnEliminarChofer, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 60, 110, 30));
+
+        btnModificarBus2.setBackground(new java.awt.Color(255, 153, 51));
+        btnModificarBus2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnModificarBus2.setForeground(new java.awt.Color(255, 255, 255));
+        btnModificarBus2.setText("MODIFICAR");
+        btnModificarBus2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnModificarBus2ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(btnModificarBus2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, -1, 30));
 
         btnGuardarChofer.setBackground(new java.awt.Color(51, 0, 153));
         btnGuardarChofer.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnGuardarChofer.setForeground(new java.awt.Color(255, 255, 255));
         btnGuardarChofer.setText("GUARDAR");
-        jPanel7.add(btnGuardarChofer, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 40, 110, 30));
+        jPanel7.add(btnGuardarChofer, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, 110, 30));
 
-        jPanel5.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 390, 180));
+        panelChofer.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 350, 160));
 
-        jTabbedPane2.addTab("CHOFER", jPanel5);
+        txtAreaChofer.setBackground(new java.awt.Color(255, 255, 255));
+        txtAreaChofer.setColumns(20);
+        txtAreaChofer.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtAreaChofer.setForeground(new java.awt.Color(0, 0, 0));
+        txtAreaChofer.setRows(5);
+        txtAreaChofer.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "INFORMACIÓN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
+        jScrollPane4.setViewportView(txtAreaChofer);
 
-        jPanel8.setBackground(new java.awt.Color(153, 255, 204));
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelChofer.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 390, 130));
+
+        txtChoferBuscar.setBackground(new java.awt.Color(255, 255, 255));
+        txtChoferBuscar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtChoferBuscar.setForeground(new java.awt.Color(0, 0, 0));
+        txtChoferBuscar.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtChoferBuscar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtChoferBuscarActionPerformed(evt);
+            }
+        });
+        panelChofer.add(txtChoferBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, 100, -1));
+
+        btnBuscarChofer.setBackground(new java.awt.Color(255, 153, 102));
+        btnBuscarChofer.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnBuscarChofer.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarChofer.setText("BUSCAR");
+        panelChofer.add(btnBuscarChofer, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 80, 110, 30));
+
+        btnChoferReset.setBackground(new java.awt.Color(255, 153, 102));
+        btnChoferReset.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnChoferReset.setForeground(new java.awt.Color(255, 255, 255));
+        btnChoferReset.setText("RESET");
+        panelChofer.add(btnChoferReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 110, -1));
+
+        jTabbedPane2.addTab("CHOFER", panelChofer);
+
+        panelHojaRuta.setBackground(new java.awt.Color(204, 255, 204));
+        panelHojaRuta.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -235,20 +373,64 @@ public class Window extends javax.swing.JFrame {
         btnEliminarHojaRuta.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnEliminarHojaRuta.setForeground(new java.awt.Color(255, 255, 255));
         btnEliminarHojaRuta.setText("ELIMINAR");
-        jPanel9.add(btnEliminarHojaRuta, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, 110, 30));
+        jPanel9.add(btnEliminarHojaRuta, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 110, 30));
 
         btnGuardarHojaRuta.setBackground(new java.awt.Color(51, 0, 153));
         btnGuardarHojaRuta.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnGuardarHojaRuta.setForeground(new java.awt.Color(255, 255, 255));
         btnGuardarHojaRuta.setText("GUARDAR");
-        jPanel9.add(btnGuardarHojaRuta, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, 110, 30));
+        jPanel9.add(btnGuardarHojaRuta, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, 110, 30));
 
-        jPanel8.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 510, 130));
+        btnModificarHojaRuta.setBackground(new java.awt.Color(255, 153, 51));
+        btnModificarHojaRuta.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnModificarHojaRuta.setForeground(new java.awt.Color(255, 255, 255));
+        btnModificarHojaRuta.setText("MODIFICAR");
+        btnModificarHojaRuta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnModificarHojaRutaActionPerformed(evt);
+            }
+        });
+        jPanel9.add(btnModificarHojaRuta, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, 110, 30));
 
-        jTabbedPane2.addTab("HOJA DE RUTA", jPanel8);
+        panelHojaRuta.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 330, 130));
 
-        jPanel10.setBackground(new java.awt.Color(153, 255, 204));
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        txtAreaHojaRuta.setBackground(new java.awt.Color(255, 255, 255));
+        txtAreaHojaRuta.setColumns(20);
+        txtAreaHojaRuta.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtAreaHojaRuta.setForeground(new java.awt.Color(0, 0, 0));
+        txtAreaHojaRuta.setRows(5);
+        txtAreaHojaRuta.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "INFORMACIÓN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
+        jScrollPane5.setViewportView(txtAreaHojaRuta);
+
+        panelHojaRuta.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 330, 150));
+
+        txtHojaRutaBuscar.setBackground(new java.awt.Color(255, 255, 255));
+        txtHojaRutaBuscar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtHojaRutaBuscar.setForeground(new java.awt.Color(0, 0, 0));
+        txtHojaRutaBuscar.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtHojaRutaBuscar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtHojaRutaBuscarActionPerformed(evt);
+            }
+        });
+        panelHojaRuta.add(txtHojaRutaBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 120, -1));
+
+        btnBuscarBus2.setBackground(new java.awt.Color(255, 153, 102));
+        btnBuscarBus2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnBuscarBus2.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarBus2.setText("BUSCAR");
+        panelHojaRuta.add(btnBuscarBus2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 90, 110, 30));
+
+        btnHojaRutaReset.setBackground(new java.awt.Color(255, 153, 102));
+        btnHojaRutaReset.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnHojaRutaReset.setForeground(new java.awt.Color(255, 255, 255));
+        btnHojaRutaReset.setText("RESET");
+        panelHojaRuta.add(btnHojaRutaReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 110, -1));
+
+        jTabbedPane2.addTab("HOJA DE RUTA", panelHojaRuta);
+
+        panelRutaTransporte.setBackground(new java.awt.Color(204, 255, 204));
+        panelRutaTransporte.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -262,7 +444,7 @@ public class Window extends javax.swing.JFrame {
                 txtRutaTransporteNumeroRActionPerformed(evt);
             }
         });
-        jPanel11.add(txtRutaTransporteNumeroR, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 150, 50));
+        jPanel11.add(txtRutaTransporteNumeroR, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 150, 40));
 
         txtRutaTransporteInicioR.setBackground(new java.awt.Color(255, 255, 255));
         txtRutaTransporteInicioR.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -290,102 +472,260 @@ public class Window extends javax.swing.JFrame {
         btnEliminarRutaTransporte.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnEliminarRutaTransporte.setForeground(new java.awt.Color(255, 255, 255));
         btnEliminarRutaTransporte.setText("ELIMINAR");
-        jPanel11.add(btnEliminarRutaTransporte, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 110, 30));
+        jPanel11.add(btnEliminarRutaTransporte, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, 110, 30));
 
         btnGuardarRutaTransporte.setBackground(new java.awt.Color(51, 0, 153));
         btnGuardarRutaTransporte.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         btnGuardarRutaTransporte.setForeground(new java.awt.Color(255, 255, 255));
         btnGuardarRutaTransporte.setText("GUARDAR");
-        jPanel11.add(btnGuardarRutaTransporte, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 110, 30));
+        jPanel11.add(btnGuardarRutaTransporte, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 110, 30));
 
         cbxRutaTransporteTipoR.setBackground(new java.awt.Color(255, 255, 255));
         cbxRutaTransporteTipoR.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbxRutaTransporteTipoR.setForeground(new java.awt.Color(0, 0, 0));
         cbxRutaTransporteTipoR.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cbxRutaTransporteTipoR.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "TIPO RUTA", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
-        jPanel11.add(cbxRutaTransporteTipoR, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 68, 170, -1));
+        jPanel11.add(cbxRutaTransporteTipoR, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 170, -1));
 
-        jPanel10.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 390, 180));
+        panelRutaTransporte.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 390, 150));
 
-        jTabbedPane2.addTab("RUTA DE TRANSPORTE", jPanel10);
+        txtAreaRutaTransporte.setBackground(new java.awt.Color(255, 255, 255));
+        txtAreaRutaTransporte.setColumns(20);
+        txtAreaRutaTransporte.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtAreaRutaTransporte.setForeground(new java.awt.Color(0, 0, 0));
+        txtAreaRutaTransporte.setRows(5);
+        txtAreaRutaTransporte.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "INFORMACIÓN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
+        jScrollPane6.setViewportView(txtAreaRutaTransporte);
 
-        jPanel2.add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 560, 380));
+        panelRutaTransporte.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 390, 140));
 
-        jTabbedPane1.addTab("GESTIÓN UNIDADES", jPanel2);
+        txtRutaTransporteBuscar.setBackground(new java.awt.Color(255, 255, 255));
+        txtRutaTransporteBuscar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtRutaTransporteBuscar.setForeground(new java.awt.Color(0, 0, 0));
+        txtRutaTransporteBuscar.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtRutaTransporteBuscar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtRutaTransporteBuscarActionPerformed(evt);
+            }
+        });
+        panelRutaTransporte.add(txtRutaTransporteBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 30, 110, -1));
 
-        jPanel3.setBackground(new java.awt.Color(204, 255, 255));
-        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jTabbedPane1.addTab("OPERACIONES", jPanel3);
+        btnBuscarBus3.setBackground(new java.awt.Color(255, 153, 102));
+        btnBuscarBus3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnBuscarBus3.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarBus3.setText("BUSCAR");
+        panelRutaTransporte.add(btnBuscarBus3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 90, 110, 30));
+
+        btnRutaTransporteReset.setBackground(new java.awt.Color(255, 153, 102));
+        btnRutaTransporteReset.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnRutaTransporteReset.setForeground(new java.awt.Color(255, 255, 255));
+        btnRutaTransporteReset.setText("RESET");
+        panelRutaTransporte.add(btnRutaTransporteReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, 110, 20));
+
+        jTabbedPane2.addTab("RUTA DE TRANSPORTE", panelRutaTransporte);
+
+        panelGestionU.add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 560, 380));
+
+        jTabbedPane1.addTab("GESTIÓN UNIDADES", panelGestionU);
+
+        panelReportes.setBackground(new java.awt.Color(204, 255, 255));
+        panelReportes.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTabbedPane3.setBackground(new java.awt.Color(204, 255, 255));
+        jTabbedPane3.setForeground(new java.awt.Color(0, 0, 0));
+
+        jPanel2.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        tableReporteChofer.setBackground(new java.awt.Color(255, 255, 255));
+        tableReporteChofer.setForeground(new java.awt.Color(0, 51, 102));
+        tableReporteChofer.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "ID", "FECHA CREACIÓN", "KILOMETRAJE", "MARCA", "MODELO"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane8.setViewportView(tableReporteChofer);
+
+        jPanel2.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 520, 180));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jPanel2.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, 220, 30));
+
+        jTextField1.setText("jTextField1");
+        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 130, 30));
+
+        jTabbedPane3.addTab("CHOFERES", jPanel2);
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tableReporteBus.setBackground(new java.awt.Color(255, 255, 255));
+        tableReporteBus.setForeground(new java.awt.Color(0, 51, 102));
+        tableReporteBus.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "ID", "FECHA CREACIÓN", "KILOMETRAJE", "MARCA", "MODELO"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
 
-        txtRutaTransporteNumeroR1.setBackground(new java.awt.Color(255, 255, 255));
-        txtRutaTransporteNumeroR1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtRutaTransporteNumeroR1.setForeground(new java.awt.Color(0, 0, 0));
-        txtRutaTransporteNumeroR1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "NÚMERO RUTA", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
-        txtRutaTransporteNumeroR1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtRutaTransporteNumeroR1ActionPerformed(evt);
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
-        jPanel13.add(txtRutaTransporteNumeroR1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 150, 50));
+        jScrollPane2.setViewportView(tableReporteBus);
+
+        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 500, 180));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FECHA CREACIÓN", "KILOMETRAJE" }));
+        jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, 190, 30));
+
+        jTabbedPane3.addTab("BUSES", jPanel1);
+
+        panelReportes.add(jTabbedPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, 390));
+
+        jTabbedPane1.addTab("REPORTES", panelReportes);
+
+        panelOperaciones.setBackground(new java.awt.Color(204, 255, 255));
+        panelOperaciones.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtRutaTransporteInicioR1.setBackground(new java.awt.Color(255, 255, 255));
         txtRutaTransporteInicioR1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtRutaTransporteInicioR1.setForeground(new java.awt.Color(0, 0, 0));
-        txtRutaTransporteInicioR1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "INICIO RUTA", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtRutaTransporteInicioR1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID Ruta Transporte", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
         txtRutaTransporteInicioR1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtRutaTransporteInicioR1ActionPerformed(evt);
             }
         });
-        jPanel13.add(txtRutaTransporteInicioR1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 150, 40));
+        panelOperaciones.add(txtRutaTransporteInicioR1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 150, 40));
 
-        txtRutaTransporteDestinoR1.setBackground(new java.awt.Color(255, 255, 255));
-        txtRutaTransporteDestinoR1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtRutaTransporteDestinoR1.setForeground(new java.awt.Color(0, 0, 0));
-        txtRutaTransporteDestinoR1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "DESTINO RUTA", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
-        txtRutaTransporteDestinoR1.addActionListener(new java.awt.event.ActionListener() {
+        txtAreaOperacionesData.setBackground(new java.awt.Color(255, 255, 255));
+        txtAreaOperacionesData.setColumns(20);
+        txtAreaOperacionesData.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtAreaOperacionesData.setForeground(new java.awt.Color(0, 0, 0));
+        txtAreaOperacionesData.setRows(5);
+        txtAreaOperacionesData.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "INFORMACIÓN", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
+        jScrollPane1.setViewportView(txtAreaOperacionesData);
+
+        panelOperaciones.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, 250, 140));
+
+        txtRutaTransporteInicioR2.setBackground(new java.awt.Color(255, 255, 255));
+        txtRutaTransporteInicioR2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtRutaTransporteInicioR2.setForeground(new java.awt.Color(0, 0, 0));
+        txtRutaTransporteInicioR2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID Bus", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtRutaTransporteInicioR2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtRutaTransporteDestinoR1ActionPerformed(evt);
+                txtRutaTransporteInicioR2ActionPerformed(evt);
             }
         });
-        jPanel13.add(txtRutaTransporteDestinoR1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, 170, 40));
+        panelOperaciones.add(txtRutaTransporteInicioR2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 150, 40));
 
-        btnEliminarRutaTransporte1.setBackground(new java.awt.Color(255, 51, 51));
-        btnEliminarRutaTransporte1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        btnEliminarRutaTransporte1.setForeground(new java.awt.Color(255, 255, 255));
-        btnEliminarRutaTransporte1.setText("ELIMINAR");
-        jPanel13.add(btnEliminarRutaTransporte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 110, 30));
+        txtRutaTransporteInicioR3.setBackground(new java.awt.Color(255, 255, 255));
+        txtRutaTransporteInicioR3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtRutaTransporteInicioR3.setForeground(new java.awt.Color(0, 0, 0));
+        txtRutaTransporteInicioR3.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 153)), "ID Chofer", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        txtRutaTransporteInicioR3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtRutaTransporteInicioR3ActionPerformed(evt);
+            }
+        });
+        panelOperaciones.add(txtRutaTransporteInicioR3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 150, 40));
 
-        btnGuardarRutaTransporte1.setBackground(new java.awt.Color(51, 0, 153));
-        btnGuardarRutaTransporte1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        btnGuardarRutaTransporte1.setForeground(new java.awt.Color(255, 255, 255));
-        btnGuardarRutaTransporte1.setText("GUARDAR");
-        jPanel13.add(btnGuardarRutaTransporte1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 110, 30));
+        btnGuardarOperaciones.setBackground(new java.awt.Color(51, 0, 153));
+        btnGuardarOperaciones.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnGuardarOperaciones.setForeground(new java.awt.Color(255, 255, 255));
+        btnGuardarOperaciones.setText("GUARDAR");
+        btnGuardarOperaciones.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnGuardarOperacionesActionPerformed(evt);
+            }
+        });
+        panelOperaciones.add(btnGuardarOperaciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 110, 30));
 
-        cbxRutaTransporteTipoR1.setBackground(new java.awt.Color(255, 255, 255));
-        cbxRutaTransporteTipoR1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        cbxRutaTransporteTipoR1.setForeground(new java.awt.Color(0, 0, 0));
-        cbxRutaTransporteTipoR1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        cbxRutaTransporteTipoR1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "TIPO RUTA", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 51, 153))); // NOI18N
-        jPanel13.add(cbxRutaTransporteTipoR1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 68, 170, -1));
+        tableOperaciones.setBackground(new java.awt.Color(255, 255, 255));
+        tableOperaciones.setForeground(new java.awt.Color(0, 51, 102));
+        tableOperaciones.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
+            },
+            new String [] {
+                "BUS ID", "CHOFER ID", "RT ID"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.Object.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false
+            };
 
-        jPanel1.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 390, 180));
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
 
-        jTabbedPane1.addTab("REPORTES", jPanel1);
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane7.setViewportView(tableOperaciones);
 
-        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 560, 420));
+        panelOperaciones.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 430, 170));
+
+        btnEliminarOperaciones.setBackground(new java.awt.Color(255, 102, 51));
+        btnEliminarOperaciones.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btnEliminarOperaciones.setForeground(new java.awt.Color(255, 255, 255));
+        btnEliminarOperaciones.setText("ELIMINAR");
+        panelOperaciones.add(btnEliminarOperaciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 110, 30));
+
+        jTabbedPane1.addTab("OPERACIONES", panelOperaciones);
+
+        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtBusModeloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBusModeloActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_txtBusModeloActionPerformed
 
     private void txtBusMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBusMarcaActionPerformed
@@ -428,17 +768,62 @@ public class Window extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtRutaTransporteDestinoRActionPerformed
 
-    private void txtRutaTransporteNumeroR1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRutaTransporteNumeroR1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtRutaTransporteNumeroR1ActionPerformed
-
     private void txtRutaTransporteInicioR1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRutaTransporteInicioR1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtRutaTransporteInicioR1ActionPerformed
 
-    private void txtRutaTransporteDestinoR1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRutaTransporteDestinoR1ActionPerformed
+    private void txtRutaTransporteInicioR2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRutaTransporteInicioR2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtRutaTransporteDestinoR1ActionPerformed
+    }//GEN-LAST:event_txtRutaTransporteInicioR2ActionPerformed
+
+    private void txtRutaTransporteInicioR3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRutaTransporteInicioR3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtRutaTransporteInicioR3ActionPerformed
+
+    private void btnGuardarOperacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarOperacionesActionPerformed
+        // TODO add your handling code here:
+        
+        
+    }//GEN-LAST:event_btnGuardarOperacionesActionPerformed
+
+    private void txtBusBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBusBuscarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtBusBuscarActionPerformed
+
+    private void txtChoferBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtChoferBuscarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtChoferBuscarActionPerformed
+
+    private void txtHojaRutaBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtHojaRutaBuscarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtHojaRutaBuscarActionPerformed
+
+    private void txtRutaTransporteBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRutaTransporteBuscarActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_txtRutaTransporteBuscarActionPerformed
+
+    private void btnGuardarBusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarBusActionPerformed
+        // TODO add your handling code here:
+        
+        
+    }//GEN-LAST:event_btnGuardarBusActionPerformed
+
+    private void btnEliminarBusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarBusActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEliminarBusActionPerformed
+
+    private void btnModificarBusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarBusActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnModificarBusActionPerformed
+
+    private void btnModificarHojaRutaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarHojaRutaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnModificarHojaRutaActionPerformed
+
+    private void btnModificarBus2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarBus2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnModificarBus2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -476,48 +861,83 @@ public class Window extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JFrame Login;
+    public javax.swing.JButton btnBusReset;
+    public javax.swing.JButton btnBuscarBus;
+    public javax.swing.JButton btnBuscarBus2;
+    public javax.swing.JButton btnBuscarBus3;
+    public javax.swing.JButton btnBuscarChofer;
+    public javax.swing.JButton btnChoferReset;
     public javax.swing.JButton btnEliminarBus;
     public javax.swing.JButton btnEliminarChofer;
     public javax.swing.JButton btnEliminarHojaRuta;
+    public javax.swing.JButton btnEliminarOperaciones;
     public javax.swing.JButton btnEliminarRutaTransporte;
-    public javax.swing.JButton btnEliminarRutaTransporte1;
     public javax.swing.JButton btnGuardarBus;
     public javax.swing.JButton btnGuardarChofer;
     public javax.swing.JButton btnGuardarHojaRuta;
+    public javax.swing.JButton btnGuardarOperaciones;
     public javax.swing.JButton btnGuardarRutaTransporte;
-    public javax.swing.JButton btnGuardarRutaTransporte1;
+    public javax.swing.JButton btnHojaRutaReset;
+    public javax.swing.JButton btnModificarBus;
+    public javax.swing.JButton btnModificarBus2;
+    public javax.swing.JButton btnModificarHojaRuta;
+    public javax.swing.JButton btnRutaTransporteReset;
     public javax.swing.JComboBox<String> cbxChoferGradoIns;
     public javax.swing.JComboBox<String> cbxRutaTransporteTipoR;
-    public javax.swing.JComboBox<String> cbxRutaTransporteTipoR1;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    public javax.swing.JFrame jFrameLogin;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTabbedPane jTabbedPane2;
+    public javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTabbedPane jTabbedPane3;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JPanel panelBus;
+    private javax.swing.JPanel panelChofer;
+    private javax.swing.JPanel panelGestionU;
+    private javax.swing.JPanel panelHojaRuta;
+    private javax.swing.JPanel panelOperaciones;
+    private javax.swing.JPanel panelReportes;
+    private javax.swing.JPanel panelRutaTransporte;
+    public javax.swing.JTable tableOperaciones;
+    public javax.swing.JTable tableReporteBus;
+    public javax.swing.JTable tableReporteChofer;
+    public javax.swing.JTextArea txtAreaBus;
+    public javax.swing.JTextArea txtAreaChofer;
+    public javax.swing.JTextArea txtAreaHojaRuta;
+    private javax.swing.JTextArea txtAreaOperacionesData;
+    public javax.swing.JTextArea txtAreaRutaTransporte;
+    public javax.swing.JTextField txtBusBuscar;
     public javax.swing.JTextField txtBusFechaCr;
     public javax.swing.JTextField txtBusKilometraje;
     public javax.swing.JTextField txtBusMarca;
     public javax.swing.JTextField txtBusModelo;
+    public javax.swing.JTextField txtChoferBuscar;
     public javax.swing.JTextField txtChoferDireccion;
     public javax.swing.JTextField txtChoferDni;
+    public javax.swing.JTextField txtHojaRutaBuscar;
     public javax.swing.JTextField txtHojaRutaIngreso;
     public javax.swing.JTextField txtHojaRutaSalida;
+    public javax.swing.JTextField txtRutaTransporteBuscar;
     public javax.swing.JTextField txtRutaTransporteDestinoR;
-    public javax.swing.JTextField txtRutaTransporteDestinoR1;
     public javax.swing.JTextField txtRutaTransporteInicioR;
     public javax.swing.JTextField txtRutaTransporteInicioR1;
+    public javax.swing.JTextField txtRutaTransporteInicioR2;
+    public javax.swing.JTextField txtRutaTransporteInicioR3;
     public javax.swing.JTextField txtRutaTransporteNumeroR;
-    public javax.swing.JTextField txtRutaTransporteNumeroR1;
     // End of variables declaration//GEN-END:variables
 }

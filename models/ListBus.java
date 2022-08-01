@@ -18,6 +18,10 @@ public class ListBus {
     public ListBus() {
         buses = new ArrayList<>();
     }
+    
+    public ArrayList<Bus> getList(){
+        return this.buses;
+    }
 
     public Bus buscarBus(int id) {
         Bus busResultado = null;

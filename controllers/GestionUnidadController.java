@@ -9,6 +9,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import models.Bus;
 import Main.Main;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import models.Chofer;
 import models.HojaRuta;
 import models.RutaTransporte;
@@ -34,7 +36,26 @@ public class GestionUnidadController implements ActionListener {
         this.view.btnEliminarHojaRuta.addActionListener(this);
         this.view.btnGuardarRutaTransporte.addActionListener(this);
         this.view.btnEliminarRutaTransporte.addActionListener(this);
+    }
 
+    public String getBusData() {
+        String data = "";
+        ArrayList<Bus> listaBus = Main.listaBus.getList();
+        for (Bus bus : listaBus) {
+            data += "\n"+bus;
+            data += "\n--------------------";
+        }
+        return data;
+    }
+
+    public void resetBus() {
+        view.txtAreaBus.setText(getBusData());
+        view.txtBusFechaCr.setText("");
+        view.txtBusBuscar.setText("");
+        view.txtBusKilometraje.setText("");
+        view.txtBusMarca.setText("");
+        view.txtBusModelo.setText("");
+        
     }
 
     @Override
@@ -46,14 +67,52 @@ public class GestionUnidadController implements ActionListener {
             Bus bus = new Bus();
             bus.setId(Bus.instances);
             bus.setFechaCreacion(this.view.txtBusFechaCr.getText());
-            bus.setKilometraje(Integer.parseInt(this.view.txtBusKilometraje.getText()));
+            bus.setKilometraje(Float.parseFloat(this.view.txtBusKilometraje.getText()));
             bus.setMarca(this.view.txtBusMarca.getText());
             bus.setModelo(this.view.txtBusModelo.getText());
 
             Main.listaBus.crearBus(bus);
-        }
+            resetBus();
+            
+        } else if (this.view.btnEliminarBus == e.getSource()) {
+            int id = Integer.parseInt(this.view.txtBusBuscar.getText());
 
-        // ---------------- CHOFER ------------------------
+            if (Main.listaBus.eliminarBus(id)) {
+                JOptionPane.showMessageDialog(null, "Eliminación exitosa");
+            } else {
+                JOptionPane.showMessageDialog(null, "Error al eliminar");
+            }
+            resetBus();
+            
+        } else if (this.view.btnModificarBus == e.getSource()) {
+            int id = Integer.parseInt(this.view.txtBusBuscar.getText());
+
+            Bus bus = new Bus();
+            bus.setId(id);
+            bus.setFechaCreacion(this.view.txtBusFechaCr.getText());
+            bus.setKilometraje(Integer.parseInt(this.view.txtBusKilometraje.getText()));
+            bus.setMarca(this.view.txtBusMarca.getText());
+            bus.setModelo(this.view.txtBusModelo.getText());
+
+            if (Main.listaBus.modificarBus(id, bus)) {
+                JOptionPane.showMessageDialog(null, "Actualización exitosa");
+            } else {
+                JOptionPane.showMessageDialog(null, "Error al actualizar");
+            }
+            resetBus();
+            
+        } else if (this.view.btnBuscarBus == e.getSource()) {
+
+            int id = Integer.parseInt(this.view.txtBusBuscar.getText());
+            Bus bus = Main.listaBus.obtenerBus(id);
+            if (bus != null) {
+                view.txtBusFechaCr.setText(bus.getFechaCreacion());
+                view.txtBusKilometraje.setText(String.valueOf(bus.getKilometraje()));
+                view.txtBusMarca.setText(bus.getMarca());
+                view.txtBusModelo.setText(bus.getModelo());
+            }
+
+        } // ---------------- CHOFER ------------------------
         // Registro
         else if (this.view.btnGuardarChofer == e.getSource()) {
             Chofer chofer = new Chofer();
@@ -63,20 +122,16 @@ public class GestionUnidadController implements ActionListener {
             chofer.setGradoInstruccion(this.view.txtBusMarca.getText());
 
             Main.listaChofer.crearChofer(chofer);
-        }
-        
-        // ---------------- HOJA RUTA ------------------------
+        } // ---------------- HOJA RUTA ------------------------
         // Registro
         else if (this.view.btnGuardarHojaRuta == e.getSource()) {
             HojaRuta hojaRuta = new HojaRuta();
             hojaRuta.setId(Bus.instances);
             hojaRuta.setIngreso(this.view.txtHojaRutaIngreso.getText());
             hojaRuta.setSalida(this.view.txtHojaRutaSalida.getText());
-            
+
             Main.listaHojaRuta.crearHojaRuta(hojaRuta);
-        }
-        
-        // ---------------- RUTA DE TRANSPORTE ------------------------
+        } // ---------------- RUTA DE TRANSPORTE ------------------------
         // Registro
         else if (this.view.btnGuardarChofer == e.getSource()) {
             RutaTransporte rutaTransporte = new RutaTransporte();
@@ -85,9 +140,10 @@ public class GestionUnidadController implements ActionListener {
             rutaTransporte.setDestinoRuta(this.view.txtRutaTransporteDestinoR.getText());
             rutaTransporte.setNumeroRuta(this.view.txtRutaTransporteNumeroR.getText());
             rutaTransporte.setTipoRuta(this.view.cbxRutaTransporteTipoR.getSelectedItem().toString());
-            
+
             Main.listaRutaTransporte.crearRutaTransporte(rutaTransporte);
         }
+
     }
 
 }
